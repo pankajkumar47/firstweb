@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+	<style>
+		#line {
+			width: 100%; 
+			text-align: center; 
+			border-bottom: 1px solid #000; 
+			line-height: 0.1em;
+			margin: 10px 0 20px; 
+		} 
+
+		#line span { 
+			background:#fff; 
+			padding:0 10px; 
+		}
+		#filt {
+			 position: fixed;
+            bottom: 20px;
+            right: 40px;
+            z-index: 1;
+            font-size:36px;
+            color: white;
+            background-color: black;
+            border-radius: 50%;
+            padding: 5px;
+                    }
+
+	</style>
+	<title>Gift cards</title>
+</head>
+<body>
+
+
+	<div class="m-auto" style="max-width: 90%;">
+
+		<!-- navbar -->
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="ind.html">LOGO Image</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="ind.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="saif.html">All products </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">All stores </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Today deals</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Top coupons</a>
+					</li>
+					
+				</ul>
+
+				<ul class="navbar-nav">
+
+					<li class="nav-item mr-5">
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="btn btn-warning" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+					</li>
+					<li class="nav-item">
+
+						<a class="btn btn-primary" href="#" data-toggle="modal" data-target="#exampleModal2">Signup</a>
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+
+		<!-- end navbar -->
+
+
+		<br>
+		<div class="card text-center bg-dark" >
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 mt-5">
+						<img src="https://img.paisawapas.com/ovz3vew9pw/2017/09/13083328/amazon.png" style=" display: flex; justify-content: center; align-items: center;" class="card-img-top" alt="...">
+					</div>
+
+					<div class="col-sm-8 text-white p-5">
+						<h4 class="text-white">Amazon Coupons & Sale Offers For Aug 2020</h4>
+						<div id="morediv">Are you looking for good quality products at affordable price without  </div>
+						<div id=morecontent>going anywhere then, Amazon is perfect destination site for you. Amazon was founded by Jeff Bezos in 1994; this is an American based retail company. Here you can get all latest Electronic Devices, Fashion Trend, Home 
+						& Kitchen wonderful branded products then shop with Amazone.com now. </div>
+						<a id="more" href="#" class="text-secondary" style="text-decoration: none;">Read more </a>
+						<a id="less" href="#" class="text-secondary" style="text-decoration: none;">less </a>
+
+						<h5 class="text-warning">Upto 6.3% PW  Cashback</h5>
+						<a href="#" class="text-info" style="text-decoration: none;" data-toggle="modal" data-target="#staticBackdrop">ⓘ Voucher Cash Rate</a>
+						<a class="btn btn-success btn-center m-3" href="#"  >Activate now</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+	
+	<div style="max-width: 90%" class="m-auto">
+	<h4 class="text-center text-black m-auto">Popular products</h4>
+	<hr>
+
+		<div class="row m-auto ">
+
+			<div class="col-3 mt-3" id="categories">
+
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title">Categories</h5><hr>
+						
+						<div style="overflow-y:scroll; max-height:300px;">
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				
+
+			</div>
+
+			<div class="col ">
+				
+				<div class="card mt-3">
+					<div class="card-body">
+
+						<div class="row">
+
+							<div class="col-sm-3 text-center">
+								<h3> UPTO 80% OFF</h3>
+
+								<button class="btn btn-success"> Grab Deal</button>
+
+							</div>
+
+							<div class="col-sm-9">
+								<blockquote class="blockquote mb-0">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+									<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+
+							</div>
+							
+
+
+						</div>
+
+						
+					</div>
+				</div>
+
+				<div class="card mt-3">
+					<div class="card-body">
+
+						<div class="row">
+
+							<div class="col-sm-3 text-center">
+								<h3> UPTO 80% OFF</h3>
+
+								<button class="btn btn-success"> Grab Deal</button>
+
+							</div>
+
+							<div class="col-sm-9">
+								<blockquote class="blockquote mb-0">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+									<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+
+							</div>
+							
+
+
+						</div>
+
+						
+					</div>
+				</div>
+
+				<div class="card mt-3">
+					<div class="card-body">
+
+						<div class="row">
+
+							<div class="col-sm-3 text-center">
+								<h3> UPTO 80% OFF</h3>
+
+								<button class="btn btn-success"> Grab Deal</button>
+
+							</div>
+
+							<div class="col-sm-9">
+								<blockquote class="blockquote mb-0">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+									<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+
+							</div>
+							
+
+
+						</div>
+
+						
+					</div>
+				</div>
+
+				<div class="card mt-3">
+					<div class="card-body">
+
+						<div class="row">
+
+							<div class="col-sm-3 text-center">
+								<h3> UPTO 80% OFF</h3>
+
+								<button class="btn btn-success"> Grab Deal</button>
+
+							</div>
+
+							<div class="col-sm-9">
+								<blockquote class="blockquote mb-0">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+									<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+								</blockquote>
+
+							</div>
+							
+
+
+						</div>
+
+						
+					</div>
+				</div>
+
+
+
+			</div>
+			
+
+		</div>
+		<div class="text-center m-3"><a href="saif.html"><b>View More</b></a></div>
+
+	</div>
+	<hr>
+
+	<div class="mb-4 text-center"><u><h4>Today's Top Deals & Cashback Offer.</h4></u></div>
+
+	<!-- offer section -->
+
+
+	<div class="container">
+		
+		<div class="row">
+		<div class="col-md-6 mt-4">
+			<div class="card">
+
+				<div class="card-body">
+
+					<div class="row">
+
+						<div class="col-4">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAuDC61JrBfNCrPQi_DKAcaaYnO6vWGhPziA&usqp=CAU" class="card-img-top" alt="...">
+						</div>
+						<div class="col-8">
+
+							<h5 class="card-title">Special title treatment</h5>
+							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+							<a href="#" class="btn btn-danger">Buy</a>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 mt-4">
+			<div class="card">
+
+				<div class="card-body">
+
+					<div class="row">
+
+						<div class="col-4">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAuDC61JrBfNCrPQi_DKAcaaYnO6vWGhPziA&usqp=CAU" class="card-img-top" alt="...">
+						</div>
+						<div class="col-8">
+
+							<h5 class="card-title">Special title treatment</h5>
+							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+							<a href="#" class="btn btn-danger">Buy</a>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-6 mt-4">
+			<div class="card">
+				
+				<div class="card-body">
+
+					<div class="row">
+						
+						<div class="col-4">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAuDC61JrBfNCrPQi_DKAcaaYnO6vWGhPziA&usqp=CAU" class="card-img-top" alt="...">
+						</div>
+						<div class="col-8">
+							
+							<h5 class="card-title">Special title treatment</h5>
+							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+							<a href="#" class="btn btn-danger">Buy</a>
+						</div>
+
+					</div>
+
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-6 mt-4">
+			<div class="card">
+				
+				<div class="card-body">
+
+					<div class="row">
+						
+						<div class="col-4">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAuDC61JrBfNCrPQi_DKAcaaYnO6vWGhPziA&usqp=CAU" class="card-img-top" alt="...">
+						</div>
+						<div class="col-8">
+							
+							<h5 class="card-title">Special title treatment</h5>
+							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+							<a href="#" class="btn btn-danger">Buy</a>
+						</div>
+
+					</div>
+
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	</div>
+
+
+
+
+	<div class="text-center m-3"><a href=""><b>View More</b></a></div>
+
+</div>
+<!-- end content -->
+
+<footer style="background-color: black;">
+	<div class="container text-white p-4">
+
+		<div class="row text-white">
+
+			<div class="col-sm-3">
+				<h4>About us</h4>
+				<p><a href="#" class="text-white">blog</a></p>
+				<p><a href="#" class="text-white">FAQ</a></p>
+				<p><a href="#" class="text-white">Amazon Prime Day Sale Offers - 2020</a></p>
+				<p><a href="#" class="text-white">Flipkart Big Billion Days - 2020</a></p>
+
+			</div>
+			<div class="col-sm-3">
+				<h4>Quick read</h4>
+				<p><a href="#" class="text-white">How it works</a></p>
+				<p><a href="#" class="text-white">Privacy policy</a></p>
+				<p><a href="#" class="text-white">Terms and condition</a></p>
+			</div>
+			<div class="col-sm-3">
+				<h4>Easy guide</h4>
+				<p><a href="#" class="text-white">Home</a></p>
+				<p><a href="#" class="text-white">Store</a></p>
+				<p><a href="#" class="text-white">Contact us</a></p>
+				<p><a href="#" class="text-white">Latest coupon and offers</a></p>
+				<p><a href="#" class="text-white">Latest deals</a></p>
+				<p><a href="#" class="text-white">Hottest price drop deal</a></p>
+
+
+			</div>
+			<div class="col-sm-3">
+				<h4>Connect with us</h4>
+			</div>
+
+		</div>
+
+		<div class="text-center">Copyright© All Right Reserved.</div>
+
+	</div>
+
+</footer>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">login</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" required id="Email1" aria-describedby="emailHelp">
+					</div>
+					<div class="form-group">
+						<label for="Password1" >Password</label>
+						<input type="password" required class="form-control" id="Password1">
+					</div>
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+						<label class="form-check-label" for="exampleCheck1">Check me out</label>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+
+				<form>
+					<div class="font-weight-bold">
+						<input type="text" placeholder="Referal code" name="ref-code" height="30px">
+						<button type="button" class="btn btn-warning">Apply</button>
+					</div>
+					<p id="line"><span>Or</span></p>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" required id="Email2" aria-describedby="emailHelp">
+					</div>
+					<div class="form-group">
+						<label for="Password1" >Password</label>
+						<input type="password" required class="form-control" id="Password2">
+					</div>
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+						<label class="form-check-label" for="exampleCheck1">Check me out</label>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Scrollable modal -->
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-scrollable">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title text-center" id="staticBackdropLabel">Voucher CashRates</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-10">PW Voucher Cash on All Fashion (Apparel, Luggage & Bags, Watches, Shoes)</div>
+					<div class="col-2"> 
+						<a href="#" class="btn btn-warning">6.3%</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">PW Voucher Cash on All Fashion (Apparel, Luggage & Bags, Watches, Shoes)</div>
+					<div class="col-2"> 
+						<a href="#" class="btn btn-warning">6.3%</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">PW Voucher Cash on All Fashion (Apparel, Luggage & Bags, Watches, Shoes)</div>
+					<div class="col-2"> 
+						<a href="#" class="btn btn-warning">6.3%</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">PW Voucher Cash on All Fashion (Apparel, Luggage & Bags, Watches, Shoes)</div>
+					<div class="col-2"> 
+						<a href="#" class="btn btn-warning">6.3%</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">PW Voucher Cash on All Fashion (Apparel, Luggage & Bags, Watches, Shoes)</div>
+					<div class="col-2"> 
+						<a href="#" class="btn btn-warning">6.3%</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10">PW Voucher Cash on All Fashion (Apparel, Luggage & Bags, Watches, Shoes)</div>
+					<div class="col-2"> 
+						<a href="#" class="btn btn-warning">6.3%</a>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- filter modal -->
+
+
+	<!-- Button trigger modal -->
+<div id="filt">
+	
+	<a data-toggle="modal" data-target="#catg">
+	<i class="fa fa-filter" style=""></i>
+</a>
+
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="catg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Categories</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+
+						
+						<div style="overflow-y:scroll; max-height:300px;">
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							<div class= "mt-2">
+								<input type="checkbox">
+								<label>Check this custom checkbox</label>
+							</div>
+							
+							
+
+						</div>
+						<div class="bg-primary text-center footer">
+        <button type="button" class="btn btn-primary">Apply</button>
+      </div>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- End filter modal -->
+
+<script>
+	$(document).ready(function(){
+		$('#less').hide();
+		$('#morecontent').hide();
+		$('#myModal').on('shown.bs.modal', function () {
+			$('#myInput').trigger('focus')
+		});
+		$('#more').click(function(e) {
+			e.stopPropagation();
+			$('div').css({
+				'height': 'auto'
+			})
+		});
+
+		$('#more').click(function() {
+			$('#morecontent').show();
+			$('#less').show();
+			$('#more').hide();
+		});
+		$('#less').click(function() {
+			$('#morecontent').hide();
+			$('#less').hide();
+			$('#more').show();
+		});
+
+		if ($(window).width()<=767){
+			$("#image").hide();
+			$("#categories").hide();
+			$("#filt").show();
+
+
+		}
+		else{
+			$("#image").show();
+			$("#categories").show();
+			$("#filt").hide();
+		}
+	})
+
+</script>
+</body>
+</html>
